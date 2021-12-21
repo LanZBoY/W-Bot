@@ -2,7 +2,6 @@ const { Client } = require('discord.js');
 const ytdl = require('ytdl-core');
 const { token } = require('./token.json');
 const { prefix } = require('./prefix.json');
-const { Music } = require('./function_modules/Music.js')
 const client = new Client();
 
 class Music{
